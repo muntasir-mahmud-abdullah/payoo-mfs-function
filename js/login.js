@@ -7,7 +7,7 @@ document
     console.log(phoneNumber, pinCode);
     if (phoneNumber === "12345" && pinCode == "1234") {
       console.log("You are logged in ");
-      window.location.href = "/index.html";
+      window.location.href = "home.html";
     } else {
       alert("wrong phone number or password");
     }
